@@ -1,0 +1,18 @@
+
+
+
+# pyc 파일들과 각 app 폴더 안의 migrations 파일 안에 __init__.py 제외하고 모두 untracked 될 수 있도록 설정
+**/migrations/*
+!**/migrations/__init__.py
+!**/migrations/initial.py
+
+**/__pycache__/
+
+**/__pycache__/*
+!**/migrations/__init__.py
+!**/migrations/initial.py
+
+00*
+*.pyc
+venv/
+logs/
